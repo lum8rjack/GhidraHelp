@@ -13,10 +13,25 @@
 from binascii import hexlify
 from ghidra.program.flatapi import FlatProgramAPI
 
+def sigToArray(sig):
+    outSig = "["
+    for i in range(0,len(sig),2):
+    	outSig = outSig + "0x" + sig[i:i+2] + ", "
+    	
+    outSig = outSig[:-2] + "]"
+    return outSig
+
 def sigToHex(sig):
     outSig = ""
     for i in range(0,len(sig),2):
         outSig = outSig + "\\x" + sig[i:i+2]
+
+    return outSig
+
+def sigToSpace(sig):
+    outSig = ""
+    for i in range(0,len(sig),2):
+        outSig = outSig + sig[i:i+2] + " "
 
     return outSig
 
@@ -65,6 +80,9 @@ if addr != None:
 
     # Print the signature
     print("Signature length: {}").format(str(sigLength))
+    print("Signature: {}").format(sig)
+    print("Signature: {}").format(sigToArray(sig))
+    print("Signature: {}").format(sigToSpace(sig))
     print("Signature: {}").format(sigReadable)
 
     # Create a mask based on the signature
