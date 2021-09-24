@@ -34,6 +34,8 @@ Ghidra scripts I pulled from other repos to have them all in one area.
 * [SystemCallAuditor.py](https://gist.github.com/cetfor/807c50add3cce7fbc36fa90252d7fba7) - Checks system calls for command injection patterns
     * https://www.youtube.com/watch?v=UVNeg7Vqytc&t=268s
 
+* [ghidra-scripts](https://github.com/0x6d696368/ghidra_scripts) - Additional scripts
+
 
 ## Resources
 
@@ -67,3 +69,5 @@ Ghidra scripts I pulled from other repos to have them all in one area.
 * [Reverse Engineering Go Binaries](https://cujo.com/reverse-engineering-go-binaries-with-ghidra/)
 
 * [Scripting Ghidra with Python](https://deadc0de.re/articles/ghidra-scripting-python.html)
+
+* [IDA FLIRT Signatures](https://github.com/push0ebp/sig-database)
