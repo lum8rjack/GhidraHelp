@@ -37,6 +37,8 @@ Ghidra scripts I pulled from other repos to have them all in one area.
 - [ghostrings](https://github.com/nccgroup/ghostrings) - Scripts for recovering string definitions in Go binaries with P-Code analysis.
     - https://research.nccgroup.com/category/tool-release/
 
+- [BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector) - Static analyzer for automated reverse engineering and scanning vulnerabilities in binaries.
+
 - Additional scripts
    - [0x6d696368 scripts](https://github.com/0x6d696368/ghidra_scripts)
    - [ghidraninja scripts](https://github.com/ghidraninja/ghidra_scripts) 
