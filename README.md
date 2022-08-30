@@ -74,3 +74,5 @@ Ghidra scripts I pulled from other repos to have them all in one area.
 - [Scripting Ghidra with Python](https://deadc0de.re/articles/ghidra-scripting-python.html)
 
 - [IDA FLIRT Signatures](https://github.com/push0ebp/sig-database)
+
+- [Ghidrathon - Add Python3 Scripting](https://github.com/mandiant/Ghidrathon)
