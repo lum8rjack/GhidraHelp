@@ -42,6 +42,7 @@ Ghidra scripts I pulled from other repos to have them all in one area.
 - Additional scripts
    - [0x6d696368 scripts](https://github.com/0x6d696368/ghidra_scripts)
    - [ghidraninja scripts](https://github.com/ghidraninja/ghidra_scripts) 
+   - [getCUJO scripts](https://github.com/getCUJO/ThreatIntel/tree/master/Scripts/Ghidra)
 
 
 ## Resources
