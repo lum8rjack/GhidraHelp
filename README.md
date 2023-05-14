@@ -1,6 +1,7 @@
 # GhidraHelp
 Repository containing different Ghidra scripts and resources
 
+
 ## Custom
 Custom Ghidra scripts.
 
@@ -34,18 +35,43 @@ Ghidra scripts I pulled from other repos to have them all in one area.
 - [SystemCallAuditor.py](https://gist.github.com/cetfor/807c50add3cce7fbc36fa90252d7fba7) - Checks system calls for command injection patterns
     - https://www.youtube.com/watch?v=UVNeg7Vqytc&t=268s
 
+
+## Additional Scripts
+
+Below are additional scripts that may be useful for analyzing different binaries.
+
+### Go Binaries
+
 - [ghostrings](https://github.com/nccgroup/ghostrings) - Scripts for recovering string definitions in Go binaries with P-Code analysis.
     - https://research.nccgroup.com/category/tool-release/
 
+
+### OpenAI
+
+- [AskJOE](https://github.com/securityjoes/AskJOE) - Ghidra script that calls OPENAI to give meaning to decompiled functions.
+
+
+### Rust Binaries
+
+- [GhidRust](https://github.com/DMaroo/GhidRust) - Rust decompiler plugin for Ghidra.
+
+
+### Vulnerability Scanner
+
 - [BinAbsInspector](https://github.com/KeenSecurityLab/BinAbsInspector) - Static analyzer for automated reverse engineering and scanning vulnerabilities in binaries.
 
-- Additional scripts
-   - [0x6d696368 scripts](https://github.com/0x6d696368/ghidra_scripts)
-   - [ghidraninja scripts](https://github.com/ghidraninja/ghidra_scripts) 
-   - [getCUJO scripts](https://github.com/getCUJO/ThreatIntel/tree/master/Scripts/Ghidra)
+### Other Repos
+
+- [0x6d696368 scripts](https://github.com/0x6d696368/ghidra_scripts)
+
+- [ghidraninja scripts](https://github.com/ghidraninja/ghidra_scripts) 
+
+- [getCUJO scripts](https://github.com/getCUJO/ThreatIntel/tree/master/Scripts/Ghidra)
 
 
 ## Resources
+
+Additional articles and resources for creating and utilizing Ghidra's scripting engine.
 
 - [BinDiffHelper](https://github.com/ubfx/BinDiffHelper)
 
