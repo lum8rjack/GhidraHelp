@@ -45,6 +45,8 @@ Below are additional scripts that may be useful for analyzing different binaries
 - [ghostrings](https://github.com/nccgroup/ghostrings) - Scripts for recovering string definitions in Go binaries with P-Code analysis.
     - https://research.nccgroup.com/category/tool-release/
 
+- [GolangAnalyzerExtension](https://github.com/mooncat-greenpy/Ghidra_GolangAnalyzerExtension) - GolangAnalyzerExtension helps Ghidra analyze Golang binaries. It supports go1.6 through go1.21.
+
 
 ### OpenAI
 
@@ -103,3 +105,5 @@ Additional articles and resources for creating and utilizing Ghidra's scripting 
 - [IDA FLIRT Signatures](https://github.com/push0ebp/sig-database)
 
 - [Ghidrathon - Add Python3 Scripting](https://github.com/mandiant/Ghidrathon)
+
+- [Ghidra Debugging - Decompilation Debugging](https://clearbluejar.github.io/posts/decompilation-debugging-pretending-all-binaries-come-with-source-code/)
