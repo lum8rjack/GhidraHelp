@@ -79,11 +79,15 @@ Additional articles and resources for creating and utilizing Ghidra's scripting 
 
 - [Cheat Sheet](https://ghidra-sre.org/CheatSheet.html)
 
+- [GhidraMCP](https://github.com/LaurieWired/GhidraMCP/)
+
 - [Ghidra Snippets](https://github.com/HackOvert/GhidraSnippets)
 
 - [Ghidra Website](https://ghidra.re)
     * [Scripting with Notes](https://ghidra.re/courses/GhidraClass/Intermediate/Scripting_withNotes.html#Scripting.html)
     - [Ghidra API Docs](https://ghidra.re/ghidra_docs/api/index.html)
+
+- [gostringungarbler](https://github.com/mandiant/gostringungarbler) - No Ghidra specific, but a python script to deobfuscate strings in Go binaries compiled with garble.
 
 - [Introduction to Ghidra's primary components](https://byte.how/posts/what-are-you-telling-me-ghidra/)
 
